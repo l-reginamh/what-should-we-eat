@@ -1,0 +1,674 @@
+[
+    {
+        "ID": 1,
+        "Name": "MyeongDong Topokki",
+        "Cuisine": "Korean,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 2,
+        "Name": "Madam Kwan's",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 3,
+        "Name": "NALE - The Nasi Lemak Company",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 4,
+        "Name": "BananaBro",
+        "Cuisine": "Local,South Indian,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 5,
+        "Name": "Alexis Bistro",
+        "Cuisine": "Western,Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 6,
+        "Name": "Plan B",
+        "Cuisine": "Western,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 7,
+        "Name": "Aeon Food Market",
+        "Cuisine": "Japanese,Local,Western,Mart,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 8,
+        "Name": "Amarin",
+        "Cuisine": "Thai,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 9,
+        "Name": "Red Red Botak Head",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 10,
+        "Name": "Sepiring",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 11,
+        "Name": "Nando's",
+        "Cuisine": "Western,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 12,
+        "Name": "Original Penang Kayu Nasi Kandar",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 13,
+        "Name": "Chili's Grill & Bar",
+        "Cuisine": "Western,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 14,
+        "Name": "Upeh",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 15,
+        "Name": "Ah Cheng Laksa",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 16,
+        "Name": "Carl's Jr.",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 17,
+        "Name": "KFC",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 18,
+        "Name": "Stuff'd",
+        "Cuisine": "Mexican,Turkish,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Berjaya Times Square,Sunway Pyramid,1 Utama,DPulze"
+    },
+    {
+        "ID": 19,
+        "Name": "Ko Hyang",
+        "Cuisine": "Korean,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,1 Utama"
+    },
+    {
+        "ID": 20,
+        "Name": "Ali, Muthu & Ah Hock",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,IOI City Mall"
+    },
+    {
+        "ID": 21,
+        "Name": "The Chicken Rice Shop",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Sunway Velocity,Berjaya Times Square,SOGO,Sunway Putra,The Gardens,1 Utama,Pavilion Bukit Jalil,The Mines,IOI City Mall,IOI Mall Puchong,Sunway Pyramid,Mid Valley"
+    },
+    {
+        "ID": 22,
+        "Name": "The Manhattan Fish Market",
+        "Cuisine": "Western,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Putra,Mid Valley,IOI City Mall"
+    },
+    {
+        "ID": 23,
+        "Name": "DubuYo",
+        "Cuisine": "Korean,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Sunway Velocity,Berjaya Times Square,KLCC,SOGO,Sunway Putra,Mid Valley,The Mines,Sunway Pyramid,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 24,
+        "Name": "Sukiya Tokyo Bowls & Noodles",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Putra,Mid Valley,Sunway Pyramid,Pavilion Bukit Jalil,IOI City Mall"
+    },
+    {
+        "ID": 25,
+        "Name": "4Fingers Crispy Chicken",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,Berjaya Times Square,KLCC,Mid Valley,Sunway Pyramid"
+    },
+    {
+        "ID": 26,
+        "Name": "BBQ Town",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 27,
+        "Name": "A&W",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Berjaya Times Square,Sunway Velocity,Sunway Putra,Mid Valley"
+    },
+    {
+        "ID": 28,
+        "Name": "Texas Chicken",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,SOGO,Sunway Putra,Mid Valley"
+    },
+    {
+        "ID": 29,
+        "Name": "Penang Flavours Express",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 30,
+        "Name": "Madam Jean Pan Mee",
+        "Cuisine": "Chinese,Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 31,
+        "Name": "Coliseum Cafe & Grill Room",
+        "Cuisine": "Cafe,Western,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens"
+    },
+    {
+        "ID": 32,
+        "Name": "Nyonya Colors",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,KLCC,TRX,The Gardens,1 Utama,Pavilion"
+    },
+    {
+        "ID": 33,
+        "Name": "Hoshino Coffee",
+        "Cuisine": "Cafe,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 34,
+        "Name": "Pulau Ketam Yong Tau Foo",
+        "Cuisine": "Chinese,Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 35,
+        "Name": "SeoulNami Korean BBQ",
+        "Cuisine": "Korean,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens"
+    },
+    {
+        "ID": 36,
+        "Name": "Sushi Zanmai",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,Pavilion,Berjaya Times Square,MyTown,The Gardens,Sunway Pyramid,Eko Cheras,1 Utama,Mid Valley,IOI City Mall,DPulze"
+    },
+    {
+        "ID": 37,
+        "Name": "Sushi Jiro",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Mid Valley,The Gardens,Pavilion Bukit Jalil,IOI City Mall"
+    },
+    {
+        "ID": 38,
+        "Name": "The Travelling Duck",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 39,
+        "Name": "Killer Gourmet Burgers KGB",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens,Pavilion"
+    },
+    {
+        "ID": 40,
+        "Name": "Sushi King",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,Sunway Putra,Mid Valley,1 Utama,Pavilion Bukit Jalil,The Mines,IOI Mall Puchong"
+    },
+    {
+        "ID": 41,
+        "Name": "Mogu Yakiniku",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens"
+    },
+    {
+        "ID": 42,
+        "Name": "Manjoe Taiwanese Dumplings",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 43,
+        "Name": "Secret Recipe",
+        "Cuisine": "Western,Local,Anything",
+        "Halal": "yes",
+        "Mall": "KLCC,Sunway Putra,Mid Valley"
+    },
+    {
+        "ID": 44,
+        "Name": "Bungkus Kaw Kaw",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Putra,MyTown,Berjaya Times Square,SOGO,KLCC,Sunway Velocity,The Gardens,Sunway Pyramid,Pavilion Bukit Jalil,The Mines,IOI City Mall,DPulze,IOI Mall Puchong"
+    },
+    {
+        "ID": 45,
+        "Name": "I Love Yoo!",
+        "Cuisine": "Chinese,Local,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,Pavilion,KLCC,The Gardens"
+    },
+    {
+        "ID": 46,
+        "Name": "Tamago EN",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens"
+    },
+    {
+        "ID": 47,
+        "Name": "Kedai Kopitiam Oriental Kopi",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Pavilion,Pavilion Bukit Jalil,Mid Valley,Sunway Pyramid,KLCC,IOI City Mall,TRX"
+    },
+    {
+        "ID": 48,
+        "Name": "Don Don Donki",
+        "Cuisine": "Japanese,Mart,Anything",
+        "Halal": "yes",
+        "Mall": "Lot 10,Sunway Pyramid,Mid Valley,IOI City Mall"
+    },
+    {
+        "ID": 49,
+        "Name": "CU Mart",
+        "Cuisine": "Mart,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,1 Utama,Pavilion Bukit Jalil,IOI City Mall,The Gardens"
+    },
+    {
+        "ID": 50,
+        "Name": "Mr. Tuk Tuk",
+        "Cuisine": "Thai,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens,IOI City Mall,Sunway Pyramid,1 Utama"
+    },
+    {
+        "ID": 51,
+        "Name": "Christine's Bakery",
+        "Cuisine": "Bakery,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Pavilion Bukit Jalil,IOI City Mall,TRX"
+    },
+    {
+        "ID": 52,
+        "Name": "Burger King",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Pavilion,Sunway Velocity,Mid Valley"
+    },
+    {
+        "ID": 53,
+        "Name": "dipndip",
+        "Cuisine": "Cafe,Anything",
+        "Halal": "no",
+        "Mall": "Sunway Velocity,Mid Valley,Sunway Pyramid,TRX"
+    },
+    {
+        "ID": 54,
+        "Name": "Chateraise",
+        "Cuisine": "Bakery,Anything",
+        "Halal": "no",
+        "Mall": "KLCC,1 Utama,Sunway Velocity,Sunway Pyramid,Mid Valley"
+    },
+    {
+        "ID": 55,
+        "Name": "Komugi",
+        "Cuisine": "Bakery,Anything",
+        "Halal": "yes",
+        "Mall": "Pavilion,Mid Valley,1 Utama,Sunway Pyramid"
+    },
+    {
+        "ID": 56,
+        "Name": "Lavender",
+        "Cuisine": "Bakery,Anything",
+        "Halal": "yes",
+        "Mall": "Pavilion,KLCC,Mid Valley,1 Utama,TRX,Pavilion Bukit Jalil,IOI City Mall,Sunway Pyramid"
+    },
+    {
+        "ID": 57,
+        "Name": "myBurgerLab",
+        "Cuisine": "Fast Food,Western,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Mid Valley"
+    },
+    {
+        "ID": 58,
+        "Name": "San Francisco Coffee Express",
+        "Cuisine": "Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,KLCC"
+    },
+    {
+        "ID": 59,
+        "Name": "Chagee",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "TRX,Sunway Velocity,Pavilion,MyTown,The Gardens,Sunway Pyramid,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 60,
+        "Name": "Machi Machi",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "The Gardens,Lot 10"
+    },
+    {
+        "ID": 61,
+        "Name": "llaollao",
+        "Cuisine": "Ice-cream,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Velocity,MyTown,Pavilion,Berjaya Times Square,KLCC,TRX,Sunway Putra,The Gardens,Mid Valley,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 62,
+        "Name": "Tealive",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Pavilion,MyTown,Sunway Velocity,Berjaya Times Square,Sunway Putra"
+    },
+    {
+        "ID": 63,
+        "Name": "Shojikiya",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "no",
+        "Mall": "Pavilion,Mid Valley,1 Utama,Sunway Velocity"
+    },
+    {
+        "ID": 64,
+        "Name": "Gongcha",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Pavilion,Sunway Velocity,KLCC,The Gardens,1 Utama,Eko Cheras,Sunway Pyramid,IOI City Mall,Berjaya Times Square,Pavilion Bukit Jalil"
+    },
+    {
+        "ID": 65,
+        "Name": "Auntie Anne's",
+        "Cuisine": "Bakery,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Pavilion,KLCC,Berjaya Times Square,1 Utama,IOI Mall Puchong,MyTown,Sunway Pyramid,The Mines,DPulze"
+    },
+    {
+        "ID": 66,
+        "Name": "Baskin Robbins",
+        "Cuisine": "Ice-cream,Anything",
+        "Halal": "yes",
+        "Mall": "Berjaya Times Square,Pavilion,Sunway Velocity,KLCC,SOGO,TRX,Mid Valley,Sunway Putra,1 Utama,The Mines,Sunway Pyramid,Pavilion Bukit Jalil,IOI City Mall,IOI Mall Puchong,The Gardens,DPulze"
+    },
+    {
+        "ID": 67,
+        "Name": "Creme de la crème",
+        "Cuisine": "Ice-cream,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Pyramid,Mid Valley,IOI City Mall"
+    },
+    {
+        "ID": 68,
+        "Name": "Empire Sushi",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "yes",
+        "Mall": "MyTown,Sunway Velocity,Berjaya Times Square,Sunway Putra,SOGO,Mid Valley"
+    },
+    {
+        "ID": 69,
+        "Name": "House of Pok",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,Sunway Velocity,1 Utama"
+    },
+    {
+        "ID": 70,
+        "Name": "McDonald's",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Pyramid,Mid Valley"
+    },
+    {
+        "ID": 71,
+        "Name": "Pizza Hut",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Sunway Pyramid,Mid Valley"
+    },
+    {
+        "ID": 72,
+        "Name": "Zok Noodle House",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Sunway Pyramid,Mid Valley"
+    },
+    {
+        "ID": 73,
+        "Name": "Zus Coffee",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,SOGO"
+    },
+    {
+        "ID": 74,
+        "Name": "OldTown & Sedap Sedap",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 75,
+        "Name": "Subway",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Sunway Pyramid"
+    },
+    {
+        "ID": 76,
+        "Name": "Ho Min San",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 77,
+        "Name": "NANYANG CAFE",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,Sunway Pyramid,Sunway Velocity"
+    },
+    {
+        "ID": 78,
+        "Name": "Starbucks",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Sunway Pyramid,Sunway Velocity,KLCC,SOGO"
+    },
+    {
+        "ID": 79,
+        "Name": "Dunkin Donuts",
+        "Cuisine": "Bakery,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,SOGO"
+    },
+    {
+        "ID": 80,
+        "Name": "Go Noodle House",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,Sunway Putra,Sunway Velocity,Sunway Pyramid"
+    },
+    {
+        "ID": 81,
+        "Name": "Lim Fried Chicken (LFC)",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 82,
+        "Name": "Kiku-Zakura",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 83,
+        "Name": "Mak's Chee Authentic Wonton 麦氏西池港式",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 84,
+        "Name": "Mou Tak Ding",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 85,
+        "Name": "Paradise Dynasty",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,MyTown,TRX"
+    },
+    {
+        "ID": 86,
+        "Name": "Pho Vietz",
+        "Cuisine": "Vietnamese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,1 Utama,IOI Mall Puchong,TRX"
+    },
+    {
+        "ID": 87,
+        "Name": "Sisters Crispy Popiah",
+        "Cuisine": "Local,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,Sunway Pyramid,SOGO"
+    },
+    {
+        "ID": 88,
+        "Name": "Hot & Roll",
+        "Cuisine": "Western,Fast Food,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,SOGO"
+    },
+    {
+        "ID": 89,
+        "Name": "Boost Juice Bars",
+        "Cuisine": "Beverage,Cafe,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley,SOGO,Sunway Pyramid"
+    },
+    {
+        "ID": 90,
+        "Name": "Antipodean",
+        "Cuisine": "Western,Cafe,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 91,
+        "Name": "The Barn",
+        "Cuisine": "Western,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 92,
+        "Name": "Hong Kong Kim Gary Restaurant",
+        "Cuisine": "Chinese,Local,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley,Sunway Pyramid"
+    },
+    {
+        "ID": 93,
+        "Name": "Grand Taipei",
+        "Cuisine": "Chinese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 94,
+        "Name": "BUSHIDO Modern Yakitori Bar",
+        "Cuisine": "Japanese,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 95,
+        "Name": "Tokyo Secret",
+        "Cuisine": "Bakery,Anything",
+        "Halal": "no",
+        "Mall": "Mid Valley"
+    },
+    {
+        "ID": 96,
+        "Name": "Gigi Coffee",
+        "Cuisine": "Cafe,Beverage,Anything",
+        "Halal": "yes",
+        "Mall": "Mid Valley"
+    }
+]

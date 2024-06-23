@@ -1,26 +1,85 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import restaurantData from './assets/json/restaurant.json';
 import "nes.css/css/nes.min.css";
 import "./App.css";
+import Preferences from './components/Preferences';
 
 function App() {
-  const [whatToEat, setWhatToEat] = useState(-1)
-  const midValleyFoodHalal = ["MyeongDong Topokki", "Madam Kwan's", "NALE - The Nasi Lemak Company", "BananaBro", "Alexis Bistro", "Plan B", "Aeon Food Market", "Amarin", "Red Red Botak Head Restaurant", "Sepiring", "Nando's", "Original Penang Kayu Nasi Kandar", "Chili's Grill & Bar", "Upeh", "Ah Cheng Laksa", "Carl's Jr.", "Stuff'd", "Ko Hyang", "Ali, Muthu & Ah Hock", "The Chicken Rice Shop", "The Manhattan Fish Market", "DubuYo", "Sukiya Tokyo Bowls & Noodles", "4Fingers Crispy Chicken", "BBQ Town", "A&W", "Penang Flavours Express", "Madam Jean Pan Mee", "Coliseum Cafe & Grill Room", "Nyonya Colors", "Hoshino Coffee", "Pulau Ketam Yong Tau Foo", "SeoulNami Korean BBQ", "Sushi Zanmai", "Sushi Jiro", "The Travelling Duck", "Killer Gourmet Burgers KGB", "Sushi King", "Mogu Yakiniku", "Manjoe Taiwanese Dumplings", "Secret Recipe", "Bungkus Kaw Kaw", "I Love Yoo!", "Tamago EN", "Oriental Kopi", "Don Don Donki", "CU Mart", "TukTuk", "Christine's Bakery", "Burger King", "dipndip", "Chateraise", "Komugi", "Lavender", "myBurgerLab", "San Francisco Coffee Express"]
+  interface PreferencesForms {
+      halal: string;
+      mall: string;
+      cuisine: string
+  }
+  
+  const [whatToEat, setWhatToEat] = useState<string | undefined>("")
+  const [preferences, setPreferences] = useState("no");
+  const [preferencesForm, setPreferencesForm] = useState({
+    halal: '',
+    mall: '',
+    cuisine: ''
+  })
+
+  const handlePreferences = (preferences: string) => {
+      setPreferences(preferences);
+  }
+
+  const handlePreferencesForm = (preferences: PreferencesForms) => {
+      setPreferencesForm(preferences);
+  }
 
   const decideForMe = () => {
-    const randomNumber = Math.floor(Math.random() * midValleyFoodHalal.length);
-    setWhatToEat(randomNumber);
+    if (preferences == "no") {
+      const randomNumber = Math.floor(Math.random() * restaurantData.length);
+      const data = restaurantData.find((d) => d.ID == randomNumber);
+      setWhatToEat(data?.Name);
+    }
+    else {
+      const filteredRestaurants = restaurantData.filter((d) => { return d.Halal == "yes" })
+      let randomNumber = Math.floor(Math.random() * restaurantData.length);
+      let found = false;
+      while(!found) {
+        const data = filteredRestaurants.find((d) => d.ID == randomNumber);
+        if (data?.Name != undefined) {
+          setWhatToEat(data?.Name);
+          found = true;
+        }
+        randomNumber = Math.floor(Math.random() * restaurantData.length);
+      }
+    }
   };
 
   return (
-    <div className="App">
-      <div className="nes-container is-rounded">
-        <p>Decide For Me!</p>
+    <div className="App size-full">
+      <div className='text-2xl mb-3 text-center size-full'>What are we eating?</div>
+      <Preferences preferences={preferences} preferencesForm={preferencesForm} onSelectPreferences={handlePreferences} onSelectPreferencesForm={handlePreferencesForm}></Preferences>
+      <button type="button" className="nes-btn is-success size-full mt-3 mb-3" onClick={decideForMe}>Let's Go!</button>
+      { (whatToEat != "") && <><div className="nes-container is-rounded is-centered size-full mt-3">{whatToEat}</div></> }
+      
+      {/* <div className="nes-container is-rounded">
+        <h3>Decide For Me!</h3>
         <button type="button" className="nes-btn is-success" onClick={decideForMe}>Let's Go!</button>
         <div className='mt-3'>
-          {whatToEat > -1 && <div className="nes-container is-rounded is-dark">{midValleyFoodHalal[whatToEat]}</div>}
+          {whatToEat > -1 && <div className="nes-container is-rounded">{restaurantData[whatToEat].Name}</div>}
         </div>
-      </div>
+      </div> */}
+      <dialog className="nes-dialog is-dark is-rounded" id="dialog-dark-rounded">
+        <form method="dialog">
+          <p className="title">{whatToEat}</p>
+          <menu className="dialog-menu">
+            <button className="nes-btn">Cancel</button>
+            <button className="nes-btn is-primary">Confirm</button>
+          </menu>
+        </form>
+      </dialog>
+      <dialog className="nes-dialog is-dark is-rounded" id="error-dialog">
+        <form method="dialog">
+          <p className="title">{whatToEat}</p>
+          <menu className="dialog-menu">
+            <button className="nes-btn">Cancel</button>
+            <button className="nes-btn is-primary">Confirm</button>
+          </menu>
+        </form>
+      </dialog>
     </div>
   )
 }
