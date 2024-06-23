@@ -47,14 +47,14 @@ function Preferences({ preferences, preferencesForm, onSelectPreferences, onSele
         <div className="container mx-auto size-full">
             <div className="nes-container is-rounded mb-3 size-full">
                 <div className="message-list flex flex-col">
-                    <div className="message -left flex flex-row item-center justify-start">
+                    <div className="message -left flex flex-col-reverse sm:flex-row item-center justify-start">
                         <i className="nes-ash mr-1"></i>
                         <div className="nes-balloon from-left">
                             <p>Looking for Halal Food?</p>
                         </div>
                     </div>
 
-                    <div className="message -right flex flex-row item-center justify-end">
+                    <div className="message -right flex flex-col sm:flex-row items-end sm:items-center justify-center sm:justify-end">
                         <div className="nes-balloon from-right">
                             <label>
                                 <input 
